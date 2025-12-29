@@ -10,7 +10,7 @@ def mostrar_menu():
 tarefas = []
 def adicionar_tarefa():
     nova_tarefa = input("Digite a nova tarefa: ")
-    nova_tarefa.lower()
+    nova_tarefa = nova_tarefa.lower()
     if nova_tarefa in tarefas:
         print("Tarefa Repetida, não incluída.")
     else:
@@ -19,15 +19,22 @@ def adicionar_tarefa():
 
 
 def listar_tarefas():
-    print(f"Suas tarefas são: {tarefas}")
+    if not tarefas:
+        print("Nenhuma tarefa cadastrada")
+    else:
+        print("Suas tarefas são:\n")
+        cont = 1
+        for tarefa in tarefas:
+            print(f"{cont}. {tarefa}")
+            cont += 1
 
 def remover_tarefas():
     tarefa_remover = input("Digite a tarefa a ser removida: ")
-    tarefa_remover
+    tarefa_remover = tarefa_remover.lower()
 
-    if tarefa_remover.lower() in tarefas:
+    if tarefa_remover in tarefas:
         tarefas.remove(tarefa_remover)
-        print("Tarefa Removida!")
+        print(f"A tarefa '{tarefa_remover}', foi removida!")
     else:
         print("Impossível remover. Nâo há esta tarefa na lista")
 
