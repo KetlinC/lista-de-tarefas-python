@@ -1,26 +1,27 @@
-Lista de Tarefas em Python
+# Lista de Tarefas em Python
 
-📌 Sobre o projeto
+## 📌 Sobre o projeto
 Este projeto é um organizador simples de lista de tarefas, no qual o usuário pode administrar suas atividades do dia a dia de forma prática e objetiva.
 
 Projeto desenvolvido em Python com foco em prática de lógica de programação, funções e interação com o usuário via terminal.
 
 ---
 
-⚙️ Funcionalidades
-➕ **Adicionar tarefas**: permite adicionar novas tarefas à lista  
+## ⚙️ Funcionalidades
+
+- ➕ **Adicionar tarefas**: permite adicionar novas tarefas à lista  
 - 📋 **Listar tarefas**: exibe todas as tarefas já cadastradas  
 - ❌ **Remover tarefas**: remove tarefas indesejadas ou já concluídas  
 - 🚪 **Sair do programa**: encerra a execução do sistema 
 
 ---
 
-🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 - Python 3.x
 
 ---
 
-📈 Aprendizados
+## 📈 Aprendizados
 
 Durante o desenvolvimento deste projeto, foi possível praticar e consolidar os seguintes conceitos:
 
@@ -35,7 +36,7 @@ Durante o desenvolvimento deste projeto, foi possível praticar e consolidar os 
 
 ---
 
-▶️ Como executar o projeto
+## ▶️ Como executar o projeto
 
 1. Clone o repositório:
 ```bash
@@ -50,6 +51,8 @@ cd lista-de-tarefas-python
 python lista_de_tarefas.py
 ```
 
-👩‍💻 Autora
+--- 
+
+## 👩‍💻 Autora
 
 Projeto desenvolvido por Ketlin Sousa 💙
